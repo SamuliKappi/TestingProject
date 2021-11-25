@@ -1,14 +1,24 @@
 {
   "name": "software-testing-assignment",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a project template for students participating in Software Testing course\r at Tampere University.",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no tests are implemented yet \" && exit 1"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage"
   },
-  "author": "",
+  "author": "Samuli Kappi & Aki Kankaanpaa",
   "license": "MIT",
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "jest": "^27.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamuliKappi/TestingProject.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SamuliKappi/TestingProject/issues"
+  },
+  "homepage": "https://github.com/SamuliKappi/TestingProject#readme"
 }
